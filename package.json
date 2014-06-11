@@ -1,0 +1,37 @@
+{
+  "name": "restful",
+  "version": "0.0.0",
+  "description": "restful with expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/particle4dev/restful-expressjs.git"
+  },
+  "keywords": [
+    "restful",
+    "expressjs"
+  ],
+  "author": "Le Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/particle4dev/restful-expressjs/issues"
+  },
+  "homepage": "https://github.com/particle4dev/restful-expressjs",
+  "dependencies": {
+    "express": "^4.3.0",
+    "mongoose": "^3.8.10",
+    "passport": "^0.2.0",
+    "fibers": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-mocha": "^0.4.1",
+    "gulp-jshint": "^1.6.1",
+    "request": "^2.36.0",
+    "jshint-stylish": "^0.2.0",
+    "should": "^3.3.1"
+  }
+}
